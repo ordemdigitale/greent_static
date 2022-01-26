@@ -68,7 +68,7 @@
                   translate-x-full
                   md:relative md:flex md:space-x-10 md:min-h-0 md:px-0 md:py-0 md:space-y-0 md:translate-x-0
                "
-               :class="{'translate-x-1/2': !navOpen}"
+               :class="{'translate-x-full': !navOpen}"
                :class="{'translate-x-0': navOpen}"
             >
                <li class="">
@@ -106,6 +106,27 @@
          </div>
       </div>
     </section>
+
+    <!-- Hero section -->
+    <section class="pt-32 pb-16 px-8 md:px-12 bg-blue-500">
+      <div class="max-w-7xl mx-auto md:flex md:items-center md:justify-between">
+         <div class="md:flex-1 md:mr-6">
+            <h1 class="font-bold text-4xl md:text-5xl text-white leading-tight">
+               The Quickest way to Chat with your Loved Ones
+            </h1>
+            <p class="mt-4 text-lg text-white">
+               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis aspernatur magni vitae veritatis.
+            </p>
+         </div>
+         <div class="md:flex-1">
+            <img
+               src="https://wordpress.iqonic.design/product/wp/farmin/wp-content/uploads/2021/08/banner-1.png"
+               alt="Chat with loved ones"
+            />
+         </div>
+      </div>
+    </section>
+
     <section id="features" class="min-h-screen"></section>
     <section id="about" class="min-h-screen bg-gray-100"></section>
     <section id="contact" class="min-h-screen"></section>
